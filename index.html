@@ -15,7 +15,6 @@
         <a-assets>
           <a-asset-item id="headd" src="models/Avatar_head.glb"></a-asset-item>
           <a-asset-item id="backdeco" src="models/Back_decoration.glb"></a-asset-item>
-          <a-asset-item id="chair" src="models/Chairs.glb"></a-asset-item>
           <a-asset-item id="chandelier" src="models/Chandeliers.glb"></a-asset-item>
           <a-asset-item id="decoration" src="models/Decoration.glb"></a-asset-item>
           <a-asset-item id="door" src="models/Doors.glb"></a-asset-item>
@@ -27,21 +26,31 @@
           <a-asset-item id="relict" src="models/Relict.glb"></a-asset-item>
           <a-asset-item id="skeleton" src="models/Room_skeleton.glb"></a-asset-item>
           <a-asset-item id="spotlights" src="models/Spot_lights.glb"></a-asset-item>
-          <a-asset-item id="stairs" src="models/Stairs.glb"></a-asset-item>
-          <a-asset-item id="table" src="models/Tables.glb"></a-asset-item>
           <a-asset-item id="text" src="models/Text.glb"></a-asset-item>
           <a-asset-item id="walldeco" src="models/Wall_decoration.glb"></a-asset-item>
           <a-asset-item id="holo" src="models/Hologram_sphere.glb"></a-asset-item>
+          <a-asset-item id="chair1" src="models/Chair individual.glb"></a-asset-item>
+          <a-asset-item id="backwall" src="models/Back wall.glb"></a-asset-item>
+          <a-asset-item id="curvedwall" src="models/Curved wall.glb"></a-asset-item>
+          <a-asset-item id="table1" src="models/Table individual.glb"></a-asset-item>
+          <a-asset-item id="stairshl" src="models/Stairs handles left.glb"></a-asset-item>
+          <a-asset-item id="stairshr" src="models/Stairs handles right .glb"></a-asset-item>
+          <a-asset-item id="stairsleft" src="models/Stairs left.glb"></a-asset-item>
+          <a-asset-item id="stairsright" src="models/Stairs right .glb"></a-asset-item>
+          <a-asset-item id="stairsback" src="models/Stair walkway.glb"></a-asset-item>
+          <a-asset-item id="walldeco1" src="models/Wall decoration neon 1.glb"></a-asset-item>
+          <a-asset-item id="walldeco2" src="models/Wall decoration neon 2.glb"></a-asset-item>
+          <a-asset-item id="walldeco3" src="models/Wall decoration neon 3.glb"></a-asset-item>
+          <a-asset-item id="walldeco4" src="models/Wall decoration neon 4.glb"></a-asset-item>
         </a-assets>
         
         <a-gltf-model src="#skeleton" position="0 0 0" scale="1 1 1"> </a-gltf-model>
         <a-gltf-model src="#frontwall" position="0 0 0" scale="1 1 1"></a-gltf-model>
         <a-gltf-model src="#walldeco" position="0 0 0" scale="1 1 1"></a-gltf-model>
-        <a-gltf-model src="#stairs" position="0 0 0" scale="1 1 1"></a-gltf-model>
-        <a-gltf-model src="#chair" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <!--<a-gltf-model src="#chair" position="0 0 0" scale="1 1 1"></a-gltf-model>-->
         <a-gltf-model src="#pool" position="0 0 0" scale="1 1 1"></a-gltf-model>
         <a-gltf-model src="#frames" position="0 0 0" scale="1 1 1"></a-gltf-model>
-        <a-gltf-model src="#table" position="0 0 0" scale="1 1 1"></a-gltf-model>
+
         <a-gltf-model src="#text" position="0 0 0" scale="1 1 1"></a-gltf-model>
         <a-gltf-model src="#spotlights" position="0 0 0" scale="1 1 1"></a-gltf-model>
         <a-gltf-model src="#backdeco" position="0 0 0" scale="1 1 1"></a-gltf-model>
@@ -53,7 +62,55 @@
         <a-gltf-model src="#chandelier" position="0 0 0" scale="1 1 1"></a-gltf-model>
         <a-gltf-model src="#decoration" position="0 0 0" scale="1 1 1"></a-gltf-model>
         <a-gltf-model src="#door" position="0 0 0" scale="1 1 1"></a-gltf-model>
-        <a-gltf-model src="#holo" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#holo" position="3 1.4 0" scale="1 1 1"></a-gltf-model>
+
+        <a-gltf-model src="#curvedwall" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#backwall" position="0 0 0" scale="1 1 1"></a-gltf-model>
+
+        <a-gltf-model src="#stairshl" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#stairshr" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#stairsleft" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#stairsright" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#stairsback" position="0 0 0" scale="1 1 1"></a-gltf-model>
+
+        <a-gltf-model src="#walldeco1" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#walldeco2" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#walldeco3" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        <a-gltf-model src="#walldeco4" position="0 0 0" scale="1 1 1"></a-gltf-model>
+        
+
+        <a-entity id="tableandchair" position="0 -1 0">
+          <a-gltf-model src="#table1" position="0 1 0" scale="1 1 1"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="0 1 0" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-7.3 1 -2" scale="1 1 1" rotation="0 270 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="2 1 -7.3" scale="1 1 1" rotation="0 90 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-5.3 1 -9.3" scale="1 1 1" rotation="0 180 0"></a-gltf-model>
+        </a-entity>
+
+        <a-entity id="tableandchair" position="12 -1 0">
+          <a-gltf-model src="#table1" position="0 1 0" scale="1 1 1"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="0 1 0" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-7.3 1 -2" scale="1 1 1" rotation="0 270 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="2 1 -7.3" scale="1 1 1" rotation="0 90 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-5.3 1 -9.3" scale="1 1 1" rotation="0 180 0"></a-gltf-model>
+        </a-entity>
+
+        <a-entity id="tableandchair" position="0 -1 9.3">
+          <a-gltf-model src="#table1" position="0 1 0" scale="1 1 1"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="0 1 0" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-7.3 1 -2" scale="1 1 1" rotation="0 270 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="2 1 -7.3" scale="1 1 1" rotation="0 90 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-5.3 1 -9.3" scale="1 1 1" rotation="0 180 0"></a-gltf-model>
+        </a-entity>
+
+        <a-entity id="tableandchair" position="12 -1 9.3">
+          <a-gltf-model src="#table1" position="0 1 0" scale="1 1 1"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="0 1 0" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-7.3 1 -2" scale="1 1 1" rotation="0 270 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="2 1 -7.3" scale="1 1 1" rotation="0 90 0"></a-gltf-model>
+          <a-gltf-model src="#chair1" position="-5.3 1 -9.3" scale="1 1 1" rotation="0 180 0"></a-gltf-model>
+        </a-entity>
+
 
         <a-sky color="#ECECEC"></a-sky>
     </a-scene>  
